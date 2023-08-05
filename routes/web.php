@@ -15,5 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 // rutas web para navegar por la pagina web
 Route::view('/', 'welcome');
-Route::view('/casa', 'welcome');
+Route::view('/dashboard', 'welcome');
+Route::view('/items', 'welcome');
 
